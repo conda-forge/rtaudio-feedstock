@@ -1,4 +1,4 @@
-{% set version = "5.2.0" %}
+{% set version = "6.0.1" %}
 {% set libversion = "6" %}
 {% set library = "Library/" if win else "" %}
 
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://github.com/thestk/rtaudio/archive/{{ version }}.tar.gz
-  sha256: a8d9c738addffd485c3f0bab14cbba72600267e3113f274398c67829bbb49332
+  sha256: 7206c8b6cee43b474f43d64988fefaadfdcfc4264ed38d8de5f5d0e6ddb0a123
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -87,14 +87,10 @@ about:
   home: https://www.music.mcgill.ca/~gary/rtaudio/
   license: MIT
   license_file: LICENSE
-  summary: 'Cross-platform C++ API for realtime audio input/output'
+  summary: Cross-platform C++ API for realtime audio input/output
   description: >
-    RtAudio is a set of C++ classes that provides a common API (Application
-    Programming Interface) for realtime audio input/output across Linux (native
-    ALSA, JACK, PulseAudio and OSS), Macintosh OS X and Windows (DirectSound,
-    ASIO and WASAPI) operating systems. RtAudio significantly simplifies the
-    process of interacting with computer audio hardware. It was designed with
-    the following objectives:
+    RtAudio is a set of C++ classes that provides a common API (Application Programming Interface) for realtime audio input/output across Linux (native ALSA, JACK, PulseAudio and OSS), Macintosh OS X and Windows (DirectSound, ASIO and WASAPI) operating systems. RtAudio significantly simplifies the process of interacting
+    with computer audio hardware. It was designed with the following objectives:
 
         - object-oriented C++ design
         - simple, common API across all supported platforms
@@ -107,11 +103,8 @@ about:
         - automatic internal conversion for data format, channel number
             compensation, (de)interleaving, and byte-swapping
 
-    RtAudio incorporates the concept of audio streams, which represent audio
-    output (playback) and/or input (recording). Available audio devices and
-    their capabilities can be enumerated and then specified when opening a
-    stream. Where applicable, multiple API support can be compiled and a
-    particular API specified when creating an RtAudio instance.
+    RtAudio incorporates the concept of audio streams, which represent audio output (playback) and/or input (recording). Available audio devices and their capabilities can be enumerated and then specified when opening a stream. Where applicable, multiple API support can be compiled and a particular API specified when creating
+    an RtAudio instance.
   doc_url: https://www.music.mcgill.ca/~gary/rtaudio/index.html
   dev_url: https://github.com/thestk/rtaudio
 
