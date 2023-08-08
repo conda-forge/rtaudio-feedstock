@@ -1,5 +1,5 @@
 {% set version = "6.0.1" %}
-{% set libversion = "6" %}
+{% set libversion = "7" %}
 {% set library = "Library/" if win else "" %}
 
 package:
