@@ -101,7 +101,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-librtaudio6-green.svg)](https://anaconda.org/conda-forge/librtaudio6) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/librtaudio6.svg)](https://anaconda.org/conda-forge/librtaudio6) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/librtaudio6.svg)](https://anaconda.org/conda-forge/librtaudio6) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/librtaudio6.svg)](https://anaconda.org/conda-forge/librtaudio6) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-librtaudio7-green.svg)](https://anaconda.org/conda-forge/librtaudio7) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/librtaudio7.svg)](https://anaconda.org/conda-forge/librtaudio7) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/librtaudio7.svg)](https://anaconda.org/conda-forge/librtaudio7) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/librtaudio7.svg)](https://anaconda.org/conda-forge/librtaudio7) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rtaudio-green.svg)](https://anaconda.org/conda-forge/rtaudio) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rtaudio.svg)](https://anaconda.org/conda-forge/rtaudio) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rtaudio.svg)](https://anaconda.org/conda-forge/rtaudio) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rtaudio.svg)](https://anaconda.org/conda-forge/rtaudio) |
 
 Installing rtaudio
@@ -114,41 +114,41 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `librtaudio6, rtaudio` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `librtaudio7, rtaudio` can be installed with `conda`:
 
 ```
-conda install librtaudio6 rtaudio
-```
-
-or with `mamba`:
-
-```
-mamba install librtaudio6 rtaudio
-```
-
-It is possible to list all of the versions of `librtaudio6` available on your platform with `conda`:
-
-```
-conda search librtaudio6 --channel conda-forge
+conda install librtaudio7 rtaudio
 ```
 
 or with `mamba`:
 
 ```
-mamba search librtaudio6 --channel conda-forge
+mamba install librtaudio7 rtaudio
+```
+
+It is possible to list all of the versions of `librtaudio7` available on your platform with `conda`:
+
+```
+conda search librtaudio7 --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search librtaudio7 --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search librtaudio6 --channel conda-forge
+mamba repoquery search librtaudio7 --channel conda-forge
 
-# List packages depending on `librtaudio6`:
-mamba repoquery whoneeds librtaudio6 --channel conda-forge
+# List packages depending on `librtaudio7`:
+mamba repoquery whoneeds librtaudio7 --channel conda-forge
 
-# List dependencies of `librtaudio6`:
-mamba repoquery depends librtaudio6 --channel conda-forge
+# List dependencies of `librtaudio7`:
+mamba repoquery depends librtaudio7 --channel conda-forge
 ```
 
 
